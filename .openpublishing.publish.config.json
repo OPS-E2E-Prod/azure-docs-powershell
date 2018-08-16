@@ -30,6 +30,22 @@
           "_dependentPackages/CommonPlugins/tools/PowerShellReference.ps1"
         ]
       }
+    },
+    {
+      "docset_name": "e2eprod-azureps",
+      "build_source_folder": ".",
+      "build_output_subfolder": "e2eprod-azureps",
+      "locale": "en-us",
+      "monikers": [],
+      "moniker_ranges": [],
+      "open_to_public_contributors": true,
+      "type_mapping": {
+        "Conceptual": "Content",
+        "ManagedReference": "Content",
+        "RestApi": "Content"
+      },
+      "build_entry_point": "docs",
+      "template_folder": "_themes"
     }
   ],
   "notification_subscribers": [],
