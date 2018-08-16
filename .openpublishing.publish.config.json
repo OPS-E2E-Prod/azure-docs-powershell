@@ -4,9 +4,9 @@
   "need_preview_pull_request": true,
   "docsets_to_publish": [
     {
-      "docset_name": "azureps",
+      "docset_name": "e2eprod-azureps",
       "build_source_folder": ".",
-      "build_output_subfolder": "azureps",
+      "build_output_subfolder": "e2eprod-azureps",
       "xref_query_tags":["/dotnet"],
       "locale": "en-us",
       "monikers": [],
