@@ -32,13 +32,13 @@ ensure your automation scripts are even more secure.
 
 2. Log in with the service principal.
 
-    ```powershell
+    ```powershell-interactive
     Login-AzureRmAccount -ServicePrincipal -ApplicationId  "http://my-app" -Credential $pscredential -TenantId $tenantid
     ```
 
     To get your TenantId, log in interactively and then get the TenantId from your subscription.
 
-    ```powershell
+    ```powershell-interactive
     Get-AzureRmSubscription
     ```
 
@@ -51,13 +51,13 @@ ensure your automation scripts are even more secure.
     CurrentStorageAccount :
     ```
 
-### Log in using an Azure VM Managed Service Identity
+### Log in using managed identities for Azure resources
 
-Managed Service Identity (MSI) is a preview feature of Azure Active Directory. You can use an MSI
+Managed identities for Azure resources is a feature of Azure Active Directory. You can use a managed identity 
 service principal for sign-in, and acquire an app-only access token to access other resources.
 
-For more information about MSI, see
-[How to use an Azure VM Managed Service Identity (MSI) for sign-in and token acquisition](/azure/active-directory/msi-how-to-get-access-token-using-msi).
+For more information about managed identities for Azure resources, see
+[How to use managed identities for Azure resources on an Azure VM to acquire an access token](/azure/active-directory/managed-identities-azure-resources/how-to-use-vm-token).
 
 ## Log in to another Cloud
 
@@ -66,13 +66,13 @@ various governments. If your Azure account is in one the government clouds, you 
 environment when you sign in. For example, if you account is in the China cloud you sign on using
 the following command:
 
-```powershell
+```powershell-interactive
 Login-AzureRmAccount -EnvironmentName AzureChinaCloud
 ```
 
 Use the following command to get a list of available environments:
 
-```powershell
+```powershell-interactive
 Get-AzureRmEnvironment | Select-Object Name
 ```
 
