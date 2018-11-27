@@ -12,9 +12,8 @@ ms.date: 09/06/2017
 
 Azure PowerShell has multiple installation methods. Using PowerShellGet with the PowerShell Gallery
 is the preferred method. Azure PowerShell can be installed on Windows using the Web Platform
-Installer (WebPI) or by using the MSI file available from GitHub. Azure PowerShell can also be
-installed in a Docker container.
-
+Installer (WebPI) or by using the MSI file available from GitHub.
+ 
 ## Install on Windows using the Web Platform Installer
 
 Installing the latest Azure PowerShell from WebPI is the same as it was for previous versions.
@@ -30,14 +29,14 @@ Download the [Azure PowerShell WebPI package](http://aka.ms/webpi-azps) and star
 > `$env:ProgramFiles\WindowsPowerShell\Modules`. In contrast, the WebPI installer
 > installs the Azure modules in `$env:ProgramFiles(x86)\Microsoft SDKs\Azure\PowerShell\`.
 >
-> If an error occurs during install, you can manually remove the Azure* folders in your
+> If an error occurs during install, you can manually remove the Azure\* folders in your
 > `$env:ProgramFiles\WindowsPowerShell\Modules` folder, and try the installation again.
 
 Once the installation completes, your `$env:PSModulePath` setting should include the directories
 containing the Azure PowerShell cmdlets. The following command can be used to verify that the Azure
 PowerShell is installed properly.
 
-```powershell
+```powershell-interactive
 # To make sure the Azure PowerShell module is available after you install
 Get-Module -ListAvailable Azure* | Select-Object Name, Version, Path
 ```
@@ -65,7 +64,7 @@ At line:1 char:1
 This error can be corrected by restarting the machine or importing the module using the fully
 qualified path. For example:
 
-```powershell
+```powershell-interactive
 Import-Module "$env:ProgramFiles(x86)\Microsoft SDKs\Azure\PowerShell\AzureRM.psd1"
 ```
 
@@ -77,29 +76,3 @@ versions of Azure modules, the installer automatically removes them. The MSI pac
 modules in `$env:ProgramFiles\WindowsPowerShell\Modules` but does not create version-specific
 folders.
 
-## Install in a Docker container
-
-We maintain a Docker image preconfigured with Azure PowerShell.
-
-Run the container with `docker run`.
-
-```powershell
-docker run azuresdk/azure-powershell
-```
-
-In addition, we maintain a subset of cmdlets as a PowerShell Core container.
-
-For Mac/Linux, use the `latest` image.
-
-```bash
-docker run azuresdk/azure-powershell-core:latest
-```
-
-For Windows, use the `nanoserver` image.
-
-```powershell
-docker run azuresdk/azure-powershell-core:nanoserver
-```
-
-Azure PowerShell is installed on the image via `Install-Module` from the
-[PowerShell Gallery](https://www.powershellgallery.com/).
