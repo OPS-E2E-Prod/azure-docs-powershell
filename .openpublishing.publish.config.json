@@ -89,5 +89,6 @@
   "monikerPath": [
     "mapping/monikerMapping.json"
   ],
-  "dest": "_site"
+  "dest": "_site",
+  "enable_custom_metadata_validation": false
 }
