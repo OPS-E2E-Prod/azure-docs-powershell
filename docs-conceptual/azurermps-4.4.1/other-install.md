@@ -10,11 +10,11 @@ ms.date: 09/06/2017
 ---
 # Other installation methods
 
+[!INCLUDE [migrate-to-az](../includes/migrate-to-az.md)]
+
 Azure PowerShell has multiple installation methods. Using PowerShellGet with the PowerShell Gallery
 is the preferred method. Azure PowerShell can be installed on Windows using the Web Platform
 Installer (WebPI) or by using the MSI file available from GitHub.
-
-[!INCLUDE[az-replacing-azurerm.md](../includes/az-replacing-azurerm.md)]
 
 ## Install on Windows using the Web Platform Installer
 
@@ -31,7 +31,7 @@ Download the [Azure PowerShell WebPI package](http://aka.ms/webpi-azps) and star
 > `$env:ProgramFiles\WindowsPowerShell\Modules`. In contrast, the WebPI installer
 > installs the Azure modules in `$env:ProgramFiles(x86)\Microsoft SDKs\Azure\PowerShell\`.
 >
-> If an error occurs during install, you can manually remove the Azure* folders in your
+> If an error occurs during install, you can manually remove the Azure\* folders in your
 > `$env:ProgramFiles\WindowsPowerShell\Modules` folder, and try the installation again.
 
 Once the installation completes, your `$env:PSModulePath` setting should include the directories
