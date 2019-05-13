@@ -2,9 +2,9 @@
   "build_entry_point": "docs",
   "docsets_to_publish": [
     {
-      "docset_name": "azureps",
+      "docset_name": "e2eprod-azureps",
       "build_source_folder": ".",
-      "build_output_subfolder": "azureps",
+      "build_output_subfolder": "e2eprod-azureps",
       "locale": "en-us",
       "monikers": [],
       "xref_query_tags": [
@@ -32,7 +32,7 @@
     }
   ],
   "notification_subscribers": [],
-  "branches_to_filter": [],
+  "branches_to_filter": ["repo_sync_novalidation_prtest_branch", "repo_sync_novalidation_live_branch", "repo_sync_novalidation_master_branch"],
   "git_repository_branch_open_to_public_contributors": "master",
   "skip_source_output_uploading": false,
   "need_preview_pull_request": true,
@@ -76,15 +76,15 @@
     {
       "path_to_root": "_dependentPackages/azurecli.plugins",
       "id": "opbuild.templates.azurecli",
-      "version": "latest",
-      "nuget_feed": "https://www.myget.org/F/op/api/v2"
+      "version": "latest-prerelease",
+      "nuget_feed": "https://www.myget.org/F/op-dev/api/v2"
     },
     {
       "id": "Microsoft.OpenPublishing.CommonPlugins",
-      "nuget_feed": "https://www.myget.org/F/op/api/v2",
+      "nuget_feed": "https://www.myget.org/F/op-dev/api/v2",
       "path_to_root": "_dependentPackages/CommonPlugins",
       "target_framework": "net45",
-      "version": "latest"
+      "version": "latest-prerelease"
     }
   ],
   "monikerPath": [
