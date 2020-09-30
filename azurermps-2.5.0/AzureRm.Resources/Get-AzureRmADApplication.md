@@ -11,6 +11,8 @@ schema: 2.0.0
 ## SYNOPSIS
 Lists existing azure active directory applications.
 
+[!INCLUDE [migrate-to-az-banner](../../includes/migrate-to-az-banner.md)]
+
 ## SYNTAX
 
 ### EmptyParameterSet (Default)
@@ -250,7 +252,7 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 [Remove-AzureRmADApplication](./Remove-AzureRmADApplication.md)
 
-[Set-AzureRmADApplication](./Set-AzureRmADApplication.md)
+
 
 [New-AzureRmADApplication](./New-AzureRmADApplication.md)
 

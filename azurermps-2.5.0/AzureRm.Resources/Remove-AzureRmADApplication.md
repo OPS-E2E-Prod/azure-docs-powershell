@@ -11,6 +11,8 @@ schema: 2.0.0
 ## SYNOPSIS
 Deletes the azure active directory application.
 
+[!INCLUDE [migrate-to-az-banner](../../includes/migrate-to-az-banner.md)]
+
 ## SYNTAX
 
 ### ObjectIdParameterSet (Default)
@@ -229,7 +231,7 @@ Keywords: azure, azurerm, arm, resource, management, manager, resource, group, t
 
 [Get-AzureRmADApplication](./Get-AzureRmADApplication.md)
 
-[Set-AzureRmADApplication](./Set-AzureRmADApplication.md)
+
 
 [Remove-AzureRmADAppCredential](./Remove-AzureRmADAppCredential.md)
 

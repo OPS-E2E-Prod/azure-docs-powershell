@@ -11,6 +11,8 @@ schema: 2.0.0
 ## SYNOPSIS
 Moves a resource to a different resource group or subscription.
 
+[!INCLUDE [migrate-to-az-banner](../../includes/migrate-to-az-banner.md)]
+
 ## SYNTAX
 
 ```
@@ -223,7 +225,7 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Find-AzureRmResource](./Find-AzureRmResource.md)
+
 
 [Get-AzureRmResource](./Get-AzureRmResource.md)
 

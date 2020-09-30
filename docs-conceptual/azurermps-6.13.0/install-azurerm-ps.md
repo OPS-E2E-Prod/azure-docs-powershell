@@ -3,12 +3,13 @@ title: Install Azure PowerShell on Windows with PowerShellGet
 description: How to install Azure PowerShell with PowerShellGet
 ms.devlang: powershell
 ms.topic: conceptual
-ms.date: 11/16/2018
+ms.date: 11/16/2018 
+ms.custom: devx-track-azurepowershell
 ---
 
 # Install Azure PowerShell on Windows with PowerShellGet
 
-[!INCLUDE [migrate-to-az](../includes/migrate-to-az.md)]
+[!INCLUDE [migrate-to-az-banner](../../includes/migrate-to-az-banner.md)]
 
 This article explains the steps to install the Azure PowerShell modules for PowerShell 5.x for
 Windows using PowerShellGet. PowerShellGet and module management is the preferred way to install
@@ -38,7 +39,7 @@ If you have an outdated version, see
 > [!IMPORTANT]
 > The module described in this document, AzureRM, uses .NET Framework. This makes it incompatible
 > with PowerShell 6.0, which uses .NET Core. If you are using PowerShell 6.0, follow the
-> [installation instructions for macOS and Linux](install-azurermps-maclinux.md).
+> [installation instructions for macOS and Linux](/powershell/azure/install-az-ps).
 
 ## Install the Azure PowerShell module
 

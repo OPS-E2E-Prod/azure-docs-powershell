@@ -11,6 +11,8 @@ schema: 2.0.0
 ## SYNOPSIS
 Gets alert rules.
 
+[!INCLUDE [migrate-to-az-banner](../../includes/migrate-to-az-banner.md)]
+
 ## SYNTAX
 
 ### GetByResourceGroup
@@ -154,7 +156,7 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Add-AzureRmLogAlertRule](./Add-AzureRmLogAlertRule.md)
+
 
 [Add-AzureRmMetricAlertRule](./Add-AzureRmMetricAlertRule.md)
 

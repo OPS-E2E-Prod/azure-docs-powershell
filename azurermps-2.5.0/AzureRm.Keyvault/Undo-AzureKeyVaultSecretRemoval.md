@@ -1,4 +1,4 @@
-﻿---
+---
 external help file: Microsoft.Azure.Commands.KeyVault.dll-Help.xml
 Module Name: AzureRM.KeyVault
 online version: https://docs.microsoft.com/en-us/powershell/module/azurerm.keyvault/undo-azurekeyvaultsecretremoval
@@ -9,6 +9,8 @@ schema: 2.0.0
 
 ## SYNOPSIS
 Recovers a deleted secret in a key vault into an active state.
+
+[!INCLUDE [migrate-to-az-banner](../../includes/migrate-to-az-banner.md)]
 
 ## SYNTAX
 
@@ -128,6 +130,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 [Remove-AzureKeyVaultSecret](./Remove-AzureKeyVaultSecret.md)
 
-[Add-AzureKeyVaultSecret](./Add-AzureKeyVaultSecret.md)
+
 
 [Get-AzureKeyVaultSecret](./Get-AzureKeyVaultSecret.md)

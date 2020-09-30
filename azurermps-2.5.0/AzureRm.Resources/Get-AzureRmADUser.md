@@ -11,6 +11,8 @@ schema: 2.0.0
 ## SYNOPSIS
 Filters active directory users.
 
+[!INCLUDE [migrate-to-az-banner](../../includes/migrate-to-az-banner.md)]
+
 ## SYNTAX
 
 ### EmptyParameterSet (Default)
@@ -254,7 +256,7 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 [New-AzureRmADUser](./New-AzureRmADUser.md)
 
-[Set-AzureRmADUser](./Set-AzureRmADUser.md)
+
 
 [Remove-AzureRmADUser](./Remove-AzureRmADUser.md)
 

@@ -11,6 +11,8 @@ schema: 2.0.0
 ## SYNOPSIS
 Captures a resource group as a template and saves it to a file.
 
+[!INCLUDE [migrate-to-az-banner](../../includes/migrate-to-az-banner.md)]
+
 ## SYNTAX
 
 ```
@@ -238,6 +240,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Find-AzureRmResourceGroup](./Find-AzureRmResourceGroup.md)
+
 
 

@@ -11,6 +11,8 @@ schema: 2.0.0
 ## SYNOPSIS
 Gets one or more activity log alert resources.
 
+[!INCLUDE [migrate-to-az-banner](../../includes/migrate-to-az-banner.md)]
+
 ## SYNTAX
 
 ### GetByNameAndResourceGroup
@@ -128,7 +130,7 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 [Set-AzureRmActivityLogAlert](./Set-AzureRmActivityLogAlert.md)
 
-[Update-AzureRmActivityLogAlert](./Update-AzureRmActivityLogAlert.md)
+
 
 [Remove-AzureRmActivityLogAlert](./Remove-AzureRmActivityLogAlert.md)
 

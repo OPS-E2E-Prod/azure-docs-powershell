@@ -12,6 +12,8 @@ schema: 2.0.0
 
 Gets resources.
 
+[!INCLUDE [migrate-to-az-banner](../../includes/migrate-to-az-banner.md)]
+
 ## SYNTAX
 
 ### ByTagNameValueParameterSet (Default)
@@ -342,7 +344,7 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Find-AzureRmResource](./Find-AzureRmResource.md)
+
 
 [Move-AzureRmResource](./Move-AzureRmResource.md)
 

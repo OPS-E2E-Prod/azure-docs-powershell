@@ -11,6 +11,8 @@ schema: 2.0.0
 ## SYNOPSIS
 Deletes the azure active directory service principal.
 
+[!INCLUDE [migrate-to-az-banner](../../includes/migrate-to-az-banner.md)]
+
 ## SYNTAX
 
 ### ObjectIdParameterSet (Default)
@@ -290,7 +292,7 @@ Keywords: azure, azurerm, arm, resource, management, manager, resource, group, t
 
 [Get-AzureRmADServicePrincipal](./Get-AzureRmADServicePrincipal.md)
 
-[Set-AzureRmADServicePrincipal](./Set-AzureRmADServicePrincipal.md)
+
 
 [Remove-AzureRmADApplication](./Remove-AzureRmADApplication.md)
 

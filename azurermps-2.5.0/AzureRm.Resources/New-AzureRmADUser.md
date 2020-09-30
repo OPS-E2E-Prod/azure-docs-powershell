@@ -11,6 +11,8 @@ schema: 2.0.0
 ## SYNOPSIS
 Creates a new active directory user.
 
+[!INCLUDE [migrate-to-az-banner](../../includes/migrate-to-az-banner.md)]
+
 ## SYNTAX
 
 ```
@@ -197,6 +199,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 [Get-AzureRmADUser](./Get-AzureRmADUser.md)
 
-[Set-AzureRmADUser](./Set-AzureRmADUser.md)
+
 
 [Remove-AzureRmADUser](./Remove-AzureRmADUser.md)

@@ -11,6 +11,8 @@ schema: 2.0.0
 ## SYNOPSIS
 Modifies a resource.
 
+[!INCLUDE [migrate-to-az-banner](../../includes/migrate-to-az-banner.md)]
+
 ## SYNTAX
 
 ### ByResourceId (Default)
@@ -458,7 +460,7 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Find-AzureRmResource](./Find-AzureRmResource.md)
+
 
 [Get-AzureRmResource](./Get-AzureRmResource.md)
 

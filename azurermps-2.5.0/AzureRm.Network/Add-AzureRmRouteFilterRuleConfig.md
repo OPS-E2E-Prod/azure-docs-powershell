@@ -10,6 +10,8 @@ schema: 2.0.0
 ## SYNOPSIS
 Adds a route filter rule to a route filter.
 
+[!INCLUDE [migrate-to-az-banner](../../includes/migrate-to-az-banner.md)]
+
 ## SYNTAX
 
 ```
@@ -193,11 +195,11 @@ Keywords: azure, azurerm, arm, resource, management, manager, network, networkin
 
 [Get-AzureRmRouteFilter](./Get-AzureRmRouteFilter.md)
 
-[New-AzureRmRouteFilterRuleConfigConfig](./New-AzureRmRouteFilterRuleConfigConfig.md)
 
-[Remove-AzureRmRouteFilterRuleConfigConfig](./Remove-AzureRmRouteFilterRuleConfigConfig.md)
 
-[Set-AzureRmRouteFilterRuleConfigConfig](./Set-AzureRmRouteFilterRuleConfigConfig.md)
+
+
+
 
 [Set-AzureRmRouteFilter](./Set-AzureRmRouteFilter.md)
 

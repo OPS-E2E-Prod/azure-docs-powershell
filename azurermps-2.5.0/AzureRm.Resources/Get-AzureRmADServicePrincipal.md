@@ -11,6 +11,8 @@ schema: 2.0.0
 ## SYNOPSIS
 Filters active directory service principals.
 
+[!INCLUDE [migrate-to-az-banner](../../includes/migrate-to-az-banner.md)]
+
 ## SYNTAX
 
 ### EmptyParameterSet (Default)
@@ -274,7 +276,7 @@ Parameters: ApplicationObject (ByValue)
 
 [New-AzureRmADServicePrincipal](./New-AzureRmADServicePrincipal.md)
 
-[Set-AzureRmADServicePrincipal](./Set-AzureRmADServicePrincipal.md)
+
 
 [Remove-AzureRmADServicePrincipal](./Remove-AzureRmADServicePrincipal.md)
 
